@@ -73,7 +73,8 @@ public class LinkedList<E extends Comparable<E>> {
 	public E max() {
 		if (size() == 0)
 			return null;
-		// else, call the recursive method that needs a reference to the first element
+		// else, call the recursive method that needs a reference to the first 
+		// element
 		return max(first, first.data);
 	}
 

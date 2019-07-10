@@ -69,8 +69,8 @@ public class ObstacleCourse {
 	}
 
 	/**
-	 * Finds the exit from the 2-D array. This method also must record the row and
-	 * col where the exit was found
+	 * Finds the exit from the 2-D array. This method also must record the row 
+	 * and col where the exit was found
 	 */
 	private boolean findExit(int row, int col) {
 		// TODO: Complete this method
@@ -81,7 +81,8 @@ public class ObstacleCourse {
 		boolean escaped = false;
 		if (course[row][col] != '+' && course[row][col] != '.') {
 			course[row][col] = TRIED;
-			if (row == 0 || row == course.length - 1 || col == 0 || col == course[row].length - 1) {
+			if (row == 0 || row == course.length - 1 || col == 0 || 
+				col == course[row].length - 1) {
 				escaped = true;
 				foundRow = row;
 				foundCol = col;

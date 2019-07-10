@@ -27,8 +27,8 @@ public class RecursionFun {
 		return combinations(n - 1, k - 1) + combinations(n - 1, k);
 	}
 
-	// Complete recursive method intWithCommas that returns the argument as a String
-	// with commas in the correct places.
+	// Complete recursive method intWithCommas that returns the argument as a
+	// String with commas in the correct places.
 	//
 	// intWithCommas(999) returns "999"
 	// intWithCommas(1234) returns "1,234"
